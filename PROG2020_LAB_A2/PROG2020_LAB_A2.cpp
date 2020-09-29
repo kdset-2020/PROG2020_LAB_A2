@@ -68,7 +68,19 @@ int main()
 	Triangle areaTriangle(testSideOne, testSideTwo);
 	areaTriangle.Area();
 
+	cout << endl << endl;
+	
+	cout << "Unit Test: 5" << endl;
+	cout << "------------" << endl;
+	double testAngleTwo = 0;
 
-	//
-	//
+	cout << "Please enter the Triangle's first angle: ";
+	cin >> testAngleOne;
+	cout << "Please enter the Triangle's second angle: ";
+	cin >> testAngleTwo;
+
+	Triangle twoAngleTriangle(testAngleOne, testAngleTwo);
+	cout << "Your first angle is: " << angleTriangle.GetAngleOne() << endl << "Your second angle is: " << angleTriangle.GetAngleTwo();
+
+	cout << endl << endl;
 }
