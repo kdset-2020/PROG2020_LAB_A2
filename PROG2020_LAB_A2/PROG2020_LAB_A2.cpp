@@ -83,4 +83,16 @@ int main()
 	cout << "Your first angle is: " << twoAngleTriangle.GetAngleOne() << endl << "Your second angle is: " << twoAngleTriangle.GetAngleTwo();
 
 	cout << endl << endl;
+
+	cout << "Unit Test: 6" << endl;
+	cout << "------------" << endl;
+
+	cout << "Please enter the Triangle's first angle: ";
+	cin >> testAngleOne;
+	cout << "Please enter the Triangle's second angle: ";
+	cin >> testAngleTwo;
+	Triangle thirdAngleTriangle(testAngleOne, testAngleTwo);
+	thirdAngleTriangle.missingAngle();
+
+	cout << endl << endl;
 }
