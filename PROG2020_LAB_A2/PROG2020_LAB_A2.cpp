@@ -95,4 +95,5 @@ int main()
 	thirdAngleTriangle.MissingAngle();
 
 	cout << endl << endl;
+	//
 }
