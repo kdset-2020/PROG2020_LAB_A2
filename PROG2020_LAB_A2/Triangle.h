@@ -37,6 +37,8 @@ public:
 
 	void Hypotenuse(void);
 
+	void Area(void);
+
 };
 
 #endif

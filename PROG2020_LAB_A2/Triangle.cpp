@@ -66,3 +66,15 @@ void Triangle::Hypotenuse(void)
 
 	printf("Your triangle's hypotenuse is: %.2lf\n", hypotenuse);
 }
+
+void Triangle::Area(void)
+{
+	double area = 0;
+	double sideOne = GetSideOne();
+	double sideTwo = GetSideTwo();
+
+	area = 0.5 * (sideOne * sideTwo);
+	
+
+	printf("Your triangle's area is: %.2lf\n", area);
+}
