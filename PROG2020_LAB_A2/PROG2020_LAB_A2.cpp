@@ -6,6 +6,7 @@
 #include <iostream>
 #include"Triangle.h"
 
+using namespace std;
 
 int main()
 {
@@ -15,12 +16,15 @@ int main()
     double testSideOne = 0;
     double testSideTwo = 0;
     
-    std :: cout << "Please enter the Triangle's first side: ";
-    std:: cin >> testSideOne;
-    std:: cout << "Please enter the Triangle's second side: ";
-    std:: cin >> testSideTwo;
+    cout << "Please enter the Triangle's first side: ";
+    cin >> testSideOne;
+    cout << "Please enter the Triangle's second side: ";
+    cin >> testSideTwo;
 
     Triangle testTriangle(testSideOne, testSideTwo);
     testTriangle.Show();
+
+    Triangle angleTriangle(testAngleOne);
+    cout << "Your angle is: " << GetAngleOne() << endl;
 
 }
