@@ -62,4 +62,16 @@ int main()
     Triangle hypTriangle(testSideOne, testSideTwo);
     hypTriangle.Hypotenuse();
 
+
+	// unit test 4
+	// ------------
+	cout << "Unit Test: 4" << endl;
+	cout << "------------" << endl;
+	cout << "Please enter the Triangle's first side: ";
+	cin >> testSideOne;
+	cout << "Please enter the Triangle's second side: ";
+	cin >> testSideTwo;
+
+	Triangle areaTriangle(testSideOne, testSideTwo);
+	areaTriangle.Area();
 }
