@@ -70,6 +70,8 @@ int main()
 
 	cout << endl << endl;
 	
+	// unit test 5
+	// ------------
 	cout << "Unit Test: 5" << endl;
 	cout << "------------" << endl;
 	float testAngleTwo = 0;
@@ -84,6 +86,8 @@ int main()
 
 	cout << endl << endl;
 
+	// unit test 6
+	// ------------
 	cout << "Unit Test: 6" << endl;
 	cout << "------------" << endl;
 
