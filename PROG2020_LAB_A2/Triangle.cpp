@@ -1,4 +1,5 @@
 #include "Triangle.h"
+#include <math.h>
 
 Triangle::Triangle(double newSideOne, double newSideTwo)
 {
@@ -52,4 +53,16 @@ void Triangle::Show(void)
 	printf("=================\n");
 	printf("Side One : %.2lf\n", GetSideOne());
 	printf("Side Two : %.2lf\n", GetSideTwo());
+}
+
+void Triangle::Hypotenuse(void)
+{
+	double hypotenuse = 0;
+	double sideOne = GetSideOne();
+	double sideTwo = GetSideTwo();
+
+	hypotenuse = (sideOne * sideOne) + (sideTwo * sideTwo);
+	hypotenuse = sqrt(hypotenuse);
+
+	printf("Your triangle's hypotenuse is: %.2lf\n", hypotenuse);
 }

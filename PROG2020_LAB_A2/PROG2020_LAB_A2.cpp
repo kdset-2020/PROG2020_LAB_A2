@@ -39,4 +39,17 @@ int main()
     Triangle angleTriangle(testAngleOne);
     cout << "Your angle is: " << angleTriangle.GetAngleOne() << endl;
 
+    // unit test 3
+    // ------------
+    cout << "Unit Test: 3" << endl;
+    cout << "------------" << endl;
+    cout << "Please enter the Triangle's first side: ";
+    cin >> testSideOne;
+    cout << "Please enter the Triangle's second side: ";
+    cin >> testSideTwo;
+
+
+    Triangle hypTriangle(testSideOne, testSideTwo);
+    hypTriangle.Hypotenuse();
+
 }
