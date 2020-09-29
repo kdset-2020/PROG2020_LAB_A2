@@ -35,6 +35,8 @@ public:
 
 	void Show(void);
 
+	void Hypotenuse(void);
+
 };
 
 #endif
