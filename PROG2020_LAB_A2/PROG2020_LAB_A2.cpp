@@ -48,5 +48,5 @@ int main()
 
 	Triangle hypTriangle(testSideOne, testSideTwo);
 	hypTriangle.Hypotenuse();
-
+	
 }
