@@ -7,11 +7,16 @@ Triangle::Triangle(double newSideOne, double newSideTwo)
 	SetSideTwo(newSideTwo);
 }
 
-Triangle::Triangle(double newAngleOne)
+Triangle::Triangle(float newAngleOne)
 {
 	SetAngleOne(newAngleOne);
 }
 
+Triangle :: Triangle(float newAngleOne, float newAngleTwo)
+{
+	SetAngleOne(newAngleOne);
+	SetAngleTwo(newAngleTwo);
+}
 
 Triangle::~Triangle()
 {
@@ -28,11 +33,11 @@ double Triangle::GetSideTwo(void)
 	return sideTwo;
 }
 
-double Triangle::GetAngleOne(void)
+float Triangle::GetAngleOne(void)
 {
 	return angleOne;
 }
-double Triangle::GetAngleTwo(void)
+float Triangle::GetAngleTwo(void)
 {
 	return angleTwo;
 }
@@ -46,11 +51,11 @@ void Triangle::SetSideTwo(double newSideTwo)
 	sideTwo = newSideTwo;
 }
 
-void Triangle::SetAngleOne(double newAngleOne)
+void Triangle::SetAngleOne(float newAngleOne)
 {
 	angleOne = newAngleOne;
 }
-void Triangle::SetAngleTwo(double newAngleTwo)
+void Triangle::SetAngleTwo(float newAngleTwo)
 {
 	angleTwo = newAngleTwo;
 }

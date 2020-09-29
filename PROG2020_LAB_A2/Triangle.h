@@ -15,25 +15,26 @@ private:
 	double sideOne;
 	double sideTwo;
 
-	double angleOne;
-	double angleTwo;
+	float angleOne;
+	float angleTwo;
 
 public:
 
 	double GetSideOne(void);
 	double GetSideTwo(void);
 
-	double GetAngleOne(void);
-	double GetAngleTwo(void);
+	float GetAngleOne(void);
+	float GetAngleTwo(void);
 
 	void SetSideOne(double newSideOne);
 	void SetSideTwo(double newSideTwo);
 
-	void SetAngleOne(double newAngleOne);
-	void SetAngleTwo(double newAngleTwo);
+	void SetAngleOne(float newAngleOne);
+	void SetAngleTwo(float newAngleTwo);
 
 	Triangle(double newSideOne, double newSideTwo);
-	Triangle(double newAngleOne);
+	Triangle(float newAngleOne);
+	Triangle(float newAngleOne, float newAngleTwo);
 	~Triangle();
 
 	void Show(void);

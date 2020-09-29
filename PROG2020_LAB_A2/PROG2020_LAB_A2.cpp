@@ -32,7 +32,7 @@ int main()
 	// ------------
 	cout << "Unit Test: 2" << endl;
 	cout << "------------" << endl;
-	double testAngleOne = 0;
+	float testAngleOne = 0;
 
 	cout << "Please enter the Triangle's angle: ";
 	cin >> testAngleOne;
@@ -72,7 +72,7 @@ int main()
 	
 	cout << "Unit Test: 5" << endl;
 	cout << "------------" << endl;
-	double testAngleTwo = 0;
+	float testAngleTwo = 0;
 
 	cout << "Please enter the Triangle's first angle: ";
 	cin >> testAngleOne;
@@ -80,7 +80,7 @@ int main()
 	cin >> testAngleTwo;
 
 	Triangle twoAngleTriangle(testAngleOne, testAngleTwo);
-	cout << "Your first angle is: " << angleTriangle.GetAngleOne() << endl << "Your second angle is: " << angleTriangle.GetAngleTwo();
+	cout << "Your first angle is: " << twoAngleTriangle.GetAngleOne() << endl << "Your second angle is: " << twoAngleTriangle.GetAngleTwo();
 
 	cout << endl << endl;
 }
