@@ -6,7 +6,11 @@
 int main()
 {
     std::cout << "This is a branch bugfix test\n";
+<<<<<<< HEAD
     std::cout << "This is a branch pull request notification test\n";
+=======
+    // test comment - devin
+>>>>>>> 3bc226c208d05505dfaa167119e64176cc43c1a0
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
