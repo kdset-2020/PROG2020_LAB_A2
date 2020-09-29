@@ -27,13 +27,13 @@ void Triangle::SetSideOne(double newSideOne)
 }
 void Triangle::SetSideTwo(double newSideTwo)
 {
-	sideOne = newSideTwo;
+	sideTwo = newSideTwo;
 }
 
 void Triangle::Show(void)
 {
 	printf("\nTriangle Information\n");
 	printf("=================\n");
-	printf("Side One : %lf\n", GetSideOne());
-	printf("Side Two : %lf\n", GetSideTwo());
+	printf("Side One : %.2lf\n", GetSideOne());
+	printf("Side Two : %.2lf\n", GetSideTwo());
 }
