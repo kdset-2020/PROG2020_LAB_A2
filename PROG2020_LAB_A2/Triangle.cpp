@@ -91,3 +91,14 @@ void Triangle::Area(void)
 
 	printf("Your triangle's area is: %.2lf\n", area);
 }
+
+void Triangle::MissingAngle(void)
+{
+	float angle = 0;
+	float angleOne = GetAngleOne();
+	float angleTwo = GetAngleTwo();
+
+	angle = 180 - angleOne - angleTwo;
+
+	printf("Your triangle's missing angle is: %.2f\n", angle);
+}

@@ -43,6 +43,8 @@ public:
 
 	void Area(void);
 
+	void MissingAngle(void);
+
 };
 
 #endif

@@ -92,7 +92,7 @@ int main()
 	cout << "Please enter the Triangle's second angle: ";
 	cin >> testAngleTwo;
 	Triangle thirdAngleTriangle(testAngleOne, testAngleTwo);
-	thirdAngleTriangle.missingAngle();
+	thirdAngleTriangle.MissingAngle();
 
 	cout << endl << endl;
 }
