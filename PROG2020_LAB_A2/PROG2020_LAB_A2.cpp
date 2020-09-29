@@ -12,15 +12,31 @@ int main()
 
     // unit test 1
     // ------------
+    cout << "Unit Test: 1" << endl;
+    cout << "------------" << endl;
     double testSideOne = 0;
     double testSideTwo = 0;
     
-    std :: cout << "Please enter the Triangle's first side: ";
-    std:: cin >> testSideOne;
-    std:: cout << "Please enter the Triangle's second side: ";
-    std:: cin >> testSideTwo;
-
+    cout << "Please enter the Triangle's first side: ";
+    cin >> testSideOne;
+    cout << "Please enter the Triangle's second side: ";
+    cin >> testSideTwo;
+   
     Triangle testTriangle(testSideOne, testSideTwo);
     testTriangle.Show();
+
+    cout << endl;
+    cout << endl;
+
+    // unit test 2
+    // ------------
+    cout << "Unit Test: 2" << endl;
+    cout << "------------" << endl;
+    double testAngleOne = 0;
+
+    cout << "Please enter the Triangle's angle: ";
+    cin >> testAngleOne;
+    Triangle angleTriangle(testAngleOne);
+    cout << "Your angle is: " << angleTriangle.GetAngleOne() << endl;
 
 }

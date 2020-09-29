@@ -6,9 +6,15 @@ Triangle::Triangle(double newSideOne, double newSideTwo)
 	SetSideTwo(newSideTwo);
 }
 
+Triangle::Triangle(double newAngleOne)
+{
+	SetAngleOne(newAngleOne);
+}
+
+
 Triangle::~Triangle()
 {
-	printf("\nThe triangle is broken ...\n");
+	
 }
 
 double Triangle::GetSideOne(void)
@@ -21,6 +27,11 @@ double Triangle::GetSideTwo(void)
 	return sideTwo;
 }
 
+double Triangle::GetAngleOne(void)
+{
+	return angleOne;
+}
+
 void Triangle::SetSideOne(double newSideOne)
 {
 	sideOne = newSideOne;
@@ -28,6 +39,11 @@ void Triangle::SetSideOne(double newSideOne)
 void Triangle::SetSideTwo(double newSideTwo)
 {
 	sideTwo = newSideTwo;
+}
+
+void Triangle::SetAngleOne(double newAngleOne)
+{
+	angleOne = newAngleOne;
 }
 
 void Triangle::Show(void)
