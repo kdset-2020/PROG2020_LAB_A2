@@ -16,6 +16,7 @@ private:
 	double sideTwo;
 
 	double angleOne;
+	double angleTwo;
 
 public:
 
@@ -23,11 +24,13 @@ public:
 	double GetSideTwo(void);
 
 	double GetAngleOne(void);
+	double GetAngleTwo(void);
 
 	void SetSideOne(double newSideOne);
 	void SetSideTwo(double newSideTwo);
 
 	void SetAngleOne(double newAngleOne);
+	void SetAngleTwo(double newAngleTwo);
 
 	Triangle(double newSideOne, double newSideTwo);
 	Triangle(double newAngleOne);

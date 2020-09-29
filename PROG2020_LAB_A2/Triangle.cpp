@@ -32,6 +32,10 @@ double Triangle::GetAngleOne(void)
 {
 	return angleOne;
 }
+double Triangle::GetAngleTwo(void)
+{
+	return angleTwo;
+}
 
 void Triangle::SetSideOne(double newSideOne)
 {
@@ -45,6 +49,10 @@ void Triangle::SetSideTwo(double newSideTwo)
 void Triangle::SetAngleOne(double newAngleOne)
 {
 	angleOne = newAngleOne;
+}
+void Triangle::SetAngleTwo(double newAngleTwo)
+{
+	angleTwo = newAngleTwo;
 }
 
 void Triangle::Show(void)
